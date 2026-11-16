@@ -48,16 +48,16 @@ function headerHTML() {
 	        <nav>
 	          <ul>
 	            <li><a href="/">Home</a></li>
-	            <li><a href="/about_me.html">About me</a></li>
+	            <li><a href="/html/about_me.html">About me</a></li>
 	            <li>
                 <details>
                   <summary>Interests</summary>
                   <ul>
-                    <li><a href="/media_interests.html">Media</a></li>
-                    <li><a href="/topic_interests.html">Topics/Hobbies</a></li>
-                    <li><a href="/topic_interests.html">Creators</a></li>
-                    <li><a href="/topic_interests.html"></a></li>
-                    <li><a href="/topic_interests.html">Books</a></li>
+                    <li><a href="/html/media_interests.html">Media</a></li>
+                    <li><a href="/html/topic_interests.html">Topics/Hobbies</a></li>
+                    <li><a href="/html/topic_interests.html">Creators</a></li>
+                    <li><a href="/html/topic_interests.html"></a></li>
+                    <li><a href="/html/topic_interests.html">Books</a></li>
                   </ul>
                 </details>
               </li>
@@ -191,7 +191,7 @@ function giveActiveClassToCurrentPage() {
     const currentHref = window.location.href.replace(".html", "") + "END";
 
     /* Homepage */
-    if (href == "/" || href == "/index.html") {
+    if (href == "/" || href == "/html/index.html") {
       if (pathname == "/") {
         el.classList.add("active");
       }
